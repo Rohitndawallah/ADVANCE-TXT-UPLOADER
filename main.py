@@ -54,10 +54,10 @@ async def show_random_emojis(message):
     return emoji_message
     
 # Define the owner's user ID
-OWNER_ID = 5840594311 # Replace with the actual owner's user ID
+OWNER_ID = 7811043854 # Replace with the actual owner's user ID
 
 # List of sudo users (initially empty or pre-populated)
-SUDO_USERS = [5840594311]
+SUDO_USERS = [7811043854]
 
 # ✅ Multiple AUTH CHANNELS allowed
 AUTH_CHANNELS = [-1002605113558,-1002663510614]  # Add more channel IDs here
@@ -633,7 +633,7 @@ async def upload(bot: Client, m: Message):
             elif "/master.mpd" in url or "d1d34p8vz63oiq" in url or "sec1.pw.live" in url:
              id =  url.split("/")[-2]
              #url = f"https://anonymouspwplayer-b99f57957198.herokuapp.com/pw?url={url}?token={raw_text4}"
-             url = f"https://anonymouspwplayerr-f996115ea61a.herokuapp.com/pw?url={url}&token={raw_text4}"
+             url = f"https://anonymouspwplayer-0e5a3f512dec.herokuapp.com/pw?url={url}&token={raw_text4}"
              #url = f"https://madxabhi-pw.onrender.com/{id}/master.m3u8?token={raw_text4}"
             #elif '/master.mpd' in url:
              #id =  url.split("/")[-2]
